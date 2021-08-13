@@ -95,3 +95,48 @@
 .actions-container .shoes-options{
     flex-grow: 1;
 }
+
+.shoes-options p{
+    font: bold 1rem 'Open Sans', sans-serif;
+    color: #808080;
+    margin-right: 5px;
+}
+
+.color-options {
+    display: flex;
+    margin: 1.5rem 0;
+}
+
+.color-options .color{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin-right: 1.5rem;
+    background-color: rgba(196, 196, 196, 0.3);
+}
+
+.color-options .color:nth-child(2){
+    background-color: rgba(56, 147, 216, 1);
+}
+
+.color-options .color:nth-child(3){
+    background-color: rgb(238, 60, 60);
+}
+
+.color-options .color.selected{
+    width: 2.5rem;
+    height: 2.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.color-options .color.selected::after{
+    content: '';
+    position: absolute;
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+    border: 2px solid rgba(0, 0, 0, 0.1)
+}
