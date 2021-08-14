@@ -169,3 +169,29 @@
     border: none;
     font-weight: bold;
 }
+
+.cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.cart button{
+    width: 4rem;
+    height: 5.5rem;
+    border: none;
+    border-radius: 1rem;
+    background: #b5db48;
+
+    cursor: pointer;
+    transition: .3s;
+}
+
+.cart button .icon-chevron-down{
+    color: rgba(255, 255, 255, 1);
+}
+
+.cart .icon-shopping-cart{
+    margin-top: .5rem;
+    color: rgba(255, 255, 255, 1);
+}
